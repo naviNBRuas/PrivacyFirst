@@ -1,0 +1,723 @@
+{
+  "live, legacy tracker (current gates)": {
+    "seeds": 3,
+    "frames_per_clip": 120,
+    "mode": "live",
+    "results": {
+      "baseline": {
+        "faces": 720,
+        "swap": 0.6222222222222222,
+        "mosaic": 0.37777777777777777,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.0,
+        "leak_rate": 0.0,
+        "collisions": 0,
+        "transitions_per_100": 3.888888888888889,
+        "identity_changes_per_face": 0.3333333333333333,
+        "demotions": {
+          "track_not_stable": 262,
+          "minor_gate_not_passed": 296,
+          "low_confidence": 11,
+          "ghost_track": 274,
+          "sticky_demotion": 471
+        },
+        "flicker_persistent": 5.034092406431834,
+        "flicker_churn": null
+      },
+      "tiny_faces": {
+        "faces": 1080,
+        "swap": 0.14722222222222223,
+        "mosaic": 0.5037037037037037,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.3490740740740741,
+        "leak_rate": 0.24814814814814815,
+        "collisions": 0,
+        "transitions_per_100": 2.962962962962963,
+        "identity_changes_per_face": 1.0,
+        "demotions": {
+          "track_not_stable": 466,
+          "minor_gate_not_passed": 772,
+          "ghost_track": 902,
+          "sticky_demotion": 1065,
+          "low_confidence": 11
+        },
+        "flicker_persistent": 7.726334728513446,
+        "flicker_churn": null
+      },
+      "low_light": {
+        "faces": 720,
+        "swap": 0.0,
+        "mosaic": 0.9027777777777778,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.09722222222222222,
+        "leak_rate": 0.06111111111111111,
+        "collisions": 0,
+        "transitions_per_100": 0.0,
+        "identity_changes_per_face": 0.0,
+        "demotions": {
+          "low_confidence": 207,
+          "track_not_stable": 413,
+          "minor_gate_not_passed": 896,
+          "ghost_track": 688,
+          "sticky_demotion": 870
+        },
+        "flicker_persistent": null,
+        "flicker_churn": null
+      },
+      "motion_blur": {
+        "faces": 720,
+        "swap": 0.28888888888888886,
+        "mosaic": 0.6888888888888889,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.022222222222222223,
+        "leak_rate": 0.058333333333333334,
+        "collisions": 0,
+        "transitions_per_100": 12.222222222222221,
+        "identity_changes_per_face": 4.333333333333333,
+        "demotions": {
+          "track_not_stable": 596,
+          "minor_gate_not_passed": 807,
+          "ghost_track": 1261,
+          "sticky_demotion": 1340,
+          "low_confidence": 5
+        },
+        "flicker_persistent": 8.373903429949726,
+        "flicker_churn": null
+      },
+      "occlusion": {
+        "faces": 684,
+        "swap": 0.5409356725146199,
+        "mosaic": 0.4502923976608187,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.008771929824561403,
+        "leak_rate": 0.0,
+        "collisions": 0,
+        "transitions_per_100": 5.994152046783626,
+        "identity_changes_per_face": 1.1666666666666667,
+        "demotions": {
+          "track_not_stable": 280,
+          "minor_gate_not_passed": 339,
+          "low_confidence": 9,
+          "ghost_track": 385,
+          "sticky_demotion": 552
+        },
+        "flicker_persistent": 5.868548095226288,
+        "flicker_churn": null
+      },
+      "crowd": {
+        "faces": 2880,
+        "swap": 0.41631944444444446,
+        "mosaic": 0.5809027777777778,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.002777777777777778,
+        "leak_rate": 0.0020833333333333333,
+        "collisions": 0,
+        "transitions_per_100": 7.118055555555555,
+        "identity_changes_per_face": 1.3333333333333333,
+        "demotions": {
+          "track_not_stable": 288,
+          "minor_gate_not_passed": 661,
+          "ghost_track": 906,
+          "sticky_demotion": 1902,
+          "low_confidence": 9,
+          "no_identity": 389
+        },
+        "flicker_persistent": 9.109381878140415,
+        "flicker_churn": null
+      },
+      "late_appearance": {
+        "faces": 720,
+        "swap": 0.5944444444444444,
+        "mosaic": 0.3347222222222222,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.07083333333333333,
+        "leak_rate": 0.07083333333333333,
+        "collisions": 0,
+        "transitions_per_100": 3.611111111111111,
+        "identity_changes_per_face": 0.16666666666666666,
+        "demotions": {
+          "low_confidence": 8,
+          "track_not_stable": 243,
+          "minor_gate_not_passed": 243,
+          "ghost_track": 251,
+          "sticky_demotion": 379
+        },
+        "flicker_persistent": 4.206432353125678,
+        "flicker_churn": null
+      },
+      "late_long": {
+        "faces": 720,
+        "swap": 0.5347222222222222,
+        "mosaic": 0.2902777777777778,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.175,
+        "leak_rate": 0.2125,
+        "collisions": 0,
+        "transitions_per_100": 3.611111111111111,
+        "identity_changes_per_face": 0.16666666666666666,
+        "demotions": {
+          "low_confidence": 13,
+          "track_not_stable": 386,
+          "minor_gate_not_passed": 411,
+          "ghost_track": 377,
+          "sticky_demotion": 464
+        },
+        "flicker_persistent": 5.325132449467977,
+        "flicker_churn": null
+      },
+      "edge_entry": {
+        "faces": 336,
+        "swap": 0.5654761904761905,
+        "mosaic": 0.43452380952380953,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.0,
+        "leak_rate": 0.0,
+        "collisions": 0,
+        "transitions_per_100": 5.9523809523809526,
+        "identity_changes_per_face": 0.16666666666666666,
+        "demotions": {
+          "low_confidence": 5,
+          "track_not_stable": 149,
+          "minor_gate_not_passed": 183,
+          "ghost_track": 318,
+          "sticky_demotion": 381
+        },
+        "flicker_persistent": 4.5962263743082685,
+        "flicker_churn": null
+      },
+      "erratic_motion": {
+        "faces": 720,
+        "swap": 0.3347222222222222,
+        "mosaic": 0.6652777777777777,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.0,
+        "leak_rate": 0.006944444444444444,
+        "collisions": 0,
+        "transitions_per_100": 6.527777777777778,
+        "identity_changes_per_face": 2.1666666666666665,
+        "demotions": {
+          "track_not_stable": 301,
+          "minor_gate_not_passed": 444,
+          "ghost_track": 727,
+          "sticky_demotion": 961,
+          "low_confidence": 11
+        },
+        "flicker_persistent": 5.363507072130839,
+        "flicker_churn": null
+      },
+      "exit_reenter": {
+        "faces": 564,
+        "swap": 0.6985815602836879,
+        "mosaic": 0.30141843971631205,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.0,
+        "leak_rate": 0.0,
+        "collisions": 0,
+        "transitions_per_100": 4.787234042553192,
+        "identity_changes_per_face": 1.3333333333333333,
+        "demotions": {
+          "track_not_stable": 248,
+          "minor_gate_not_passed": 307,
+          "low_confidence": 7,
+          "ghost_track": 443,
+          "sticky_demotion": 533
+        },
+        "flicker_persistent": 5.066728128327264,
+        "flicker_churn": null
+      }
+    },
+    "note": "STUB replacer + SIMULATED detector. Measures the gates and bookkeeping, not real swap quality."
+  },
+  "live, run-004 tracker": {
+    "seeds": 3,
+    "frames_per_clip": 120,
+    "mode": "live",
+    "results": {
+      "baseline": {
+        "faces": 720,
+        "swap": 0.6222222222222222,
+        "mosaic": 0.37777777777777777,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.0,
+        "leak_rate": 0.0,
+        "collisions": 0,
+        "transitions_per_100": 3.888888888888889,
+        "identity_changes_per_face": 0.3333333333333333,
+        "demotions": {
+          "track_not_stable": 252,
+          "minor_gate_not_passed": 286,
+          "low_confidence": 11,
+          "ghost_track": 264,
+          "sticky_demotion": 463
+        },
+        "flicker_persistent": 4.761826423803965,
+        "flicker_churn": 18.652190780639646
+      },
+      "tiny_faces": {
+        "faces": 1080,
+        "swap": 0.10277777777777777,
+        "mosaic": 0.5046296296296297,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.3925925925925926,
+        "leak_rate": 0.2638888888888889,
+        "collisions": 0,
+        "transitions_per_100": 2.5,
+        "identity_changes_per_face": 0.5,
+        "demotions": {
+          "track_not_stable": 189,
+          "minor_gate_not_passed": 535,
+          "ghost_track": 548,
+          "sticky_demotion": 812,
+          "low_confidence": 11
+        },
+        "flicker_persistent": 7.363767345746358,
+        "flicker_churn": 18.49376955032349
+      },
+      "low_light": {
+        "faces": 720,
+        "swap": 0.0,
+        "mosaic": 0.8833333333333333,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.11666666666666667,
+        "leak_rate": 0.06666666666666667,
+        "collisions": 0,
+        "transitions_per_100": 0.0,
+        "identity_changes_per_face": 0.0,
+        "demotions": {
+          "low_confidence": 207,
+          "track_not_stable": 290,
+          "minor_gate_not_passed": 799,
+          "ghost_track": 591,
+          "sticky_demotion": 780
+        },
+        "flicker_persistent": null,
+        "flicker_churn": null
+      },
+      "motion_blur": {
+        "faces": 720,
+        "swap": 0.25416666666666665,
+        "mosaic": 0.6972222222222222,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.04861111111111111,
+        "leak_rate": 0.015277777777777777,
+        "collisions": 0,
+        "transitions_per_100": 10.0,
+        "identity_changes_per_face": 3.5,
+        "demotions": {
+          "track_not_stable": 342,
+          "minor_gate_not_passed": 588,
+          "ghost_track": 836,
+          "sticky_demotion": 1027,
+          "low_confidence": 5
+        },
+        "flicker_persistent": 8.959369093274313,
+        "flicker_churn": 18.82669663202195
+      },
+      "occlusion": {
+        "faces": 684,
+        "swap": 0.5160818713450293,
+        "mosaic": 0.47368421052631576,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.01023391812865497,
+        "leak_rate": 0.0,
+        "collisions": 0,
+        "transitions_per_100": 5.994152046783626,
+        "identity_changes_per_face": 1.0,
+        "demotions": {
+          "track_not_stable": 270,
+          "minor_gate_not_passed": 329,
+          "low_confidence": 9,
+          "ghost_track": 375,
+          "sticky_demotion": 554
+        },
+        "flicker_persistent": 5.685374518235524,
+        "flicker_churn": 18.91098674138387
+      },
+      "crowd": {
+        "faces": 2880,
+        "swap": 0.4378472222222222,
+        "mosaic": 0.5555555555555556,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.006597222222222222,
+        "leak_rate": 0.0020833333333333333,
+        "collisions": 0,
+        "transitions_per_100": 8.090277777777779,
+        "identity_changes_per_face": 1.0416666666666667,
+        "demotions": {
+          "track_not_stable": 224,
+          "minor_gate_not_passed": 250,
+          "ghost_track": 578,
+          "sticky_demotion": 1650,
+          "low_confidence": 9,
+          "no_identity": 62
+        },
+        "flicker_persistent": 8.878119980102577,
+        "flicker_churn": 21.787379386183144
+      },
+      "late_appearance": {
+        "faces": 720,
+        "swap": 0.5944444444444444,
+        "mosaic": 0.3347222222222222,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.07083333333333333,
+        "leak_rate": 0.07083333333333333,
+        "collisions": 0,
+        "transitions_per_100": 3.611111111111111,
+        "identity_changes_per_face": 0.16666666666666666,
+        "demotions": {
+          "low_confidence": 8,
+          "track_not_stable": 243,
+          "minor_gate_not_passed": 243,
+          "ghost_track": 251,
+          "sticky_demotion": 379
+        },
+        "flicker_persistent": 4.211988147099813,
+        "flicker_churn": 18.440111287434895
+      },
+      "late_long": {
+        "faces": 720,
+        "swap": 0.5111111111111111,
+        "mosaic": 0.30833333333333335,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.18055555555555555,
+        "leak_rate": 0.22361111111111112,
+        "collisions": 0,
+        "transitions_per_100": 3.611111111111111,
+        "identity_changes_per_face": 0.16666666666666666,
+        "demotions": {
+          "low_confidence": 13,
+          "track_not_stable": 337,
+          "minor_gate_not_passed": 390,
+          "ghost_track": 336,
+          "sticky_demotion": 457
+        },
+        "flicker_persistent": 4.579663157463074,
+        "flicker_churn": 18.242624282836914
+      },
+      "edge_entry": {
+        "faces": 336,
+        "swap": 0.5684523809523809,
+        "mosaic": 0.43154761904761907,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.0,
+        "leak_rate": 0.0,
+        "collisions": 0,
+        "transitions_per_100": 5.9523809523809526,
+        "identity_changes_per_face": 0.16666666666666666,
+        "demotions": {
+          "low_confidence": 5,
+          "track_not_stable": 149,
+          "minor_gate_not_passed": 183,
+          "ghost_track": 318,
+          "sticky_demotion": 381
+        },
+        "flicker_persistent": 4.604221423467,
+        "flicker_churn": 19.04906506008572
+      },
+      "erratic_motion": {
+        "faces": 720,
+        "swap": 0.27361111111111114,
+        "mosaic": 0.7166666666666667,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.009722222222222222,
+        "leak_rate": 0.001388888888888889,
+        "collisions": 0,
+        "transitions_per_100": 5.0,
+        "identity_changes_per_face": 1.0,
+        "demotions": {
+          "track_not_stable": 221,
+          "minor_gate_not_passed": 383,
+          "ghost_track": 446,
+          "sticky_demotion": 778,
+          "low_confidence": 11
+        },
+        "flicker_persistent": 6.568698528077867,
+        "flicker_churn": 18.89194993972778
+      },
+      "exit_reenter": {
+        "faces": 564,
+        "swap": 0.6950354609929078,
+        "mosaic": 0.3049645390070922,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.0,
+        "leak_rate": 0.0,
+        "collisions": 0,
+        "transitions_per_100": 5.49645390070922,
+        "identity_changes_per_face": 1.3333333333333333,
+        "demotions": {
+          "track_not_stable": 229,
+          "minor_gate_not_passed": 292,
+          "low_confidence": 7,
+          "ghost_track": 428,
+          "sticky_demotion": 523
+        },
+        "flicker_persistent": 5.027572810649872,
+        "flicker_churn": 19.619271490308975
+      }
+    },
+    "note": "STUB replacer + SIMULATED detector. Measures the gates and bookkeeping, not real swap quality."
+  },
+  "two-pass": {
+    "seeds": 3,
+    "frames_per_clip": 120,
+    "mode": "two_pass",
+    "results": {
+      "baseline": {
+        "faces": 720,
+        "swap": 0.9291666666666667,
+        "mosaic": 0.07083333333333333,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.0,
+        "leak_rate": 0.0,
+        "collisions": 0,
+        "transitions_per_100": 1.25,
+        "identity_changes_per_face": 0.3333333333333333,
+        "demotions": {
+          "ghost_track": 273,
+          "track_not_stable": 269,
+          "minor_gate_not_passed": 269,
+          "sticky_demotion": 319,
+          "low_confidence": 11
+        },
+        "flicker_persistent": 5.083150553703308,
+        "flicker_churn": null
+      },
+      "tiny_faces": {
+        "faces": 1080,
+        "swap": 0.18888888888888888,
+        "mosaic": 0.35833333333333334,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.4527777777777778,
+        "leak_rate": 0.2712962962962963,
+        "collisions": 0,
+        "transitions_per_100": 2.1296296296296298,
+        "identity_changes_per_face": 0.3333333333333333,
+        "demotions": {
+          "track_not_stable": 150,
+          "minor_gate_not_passed": 307,
+          "ghost_track": 517,
+          "sticky_demotion": 776,
+          "low_confidence": 11,
+          "replacer_unhealthy": 2
+        },
+        "flicker_persistent": 7.360117159949408,
+        "flicker_churn": null
+      },
+      "low_light": {
+        "faces": 720,
+        "swap": 0.0,
+        "mosaic": 0.8111111111111111,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.18888888888888888,
+        "leak_rate": 0.0,
+        "collisions": 0,
+        "transitions_per_100": 0.0,
+        "identity_changes_per_face": 0.0,
+        "demotions": {
+          "low_confidence": 250,
+          "track_not_stable": 171,
+          "minor_gate_not_passed": 848,
+          "ghost_track": 597,
+          "sticky_demotion": 839
+        },
+        "flicker_persistent": null,
+        "flicker_churn": null
+      },
+      "motion_blur": {
+        "faces": 720,
+        "swap": 0.34305555555555556,
+        "mosaic": 0.5569444444444445,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.1,
+        "leak_rate": 0.001388888888888889,
+        "collisions": 0,
+        "transitions_per_100": 8.194444444444445,
+        "identity_changes_per_face": 2.5,
+        "demotions": {
+          "track_not_stable": 244,
+          "minor_gate_not_passed": 507,
+          "ghost_track": 843,
+          "sticky_demotion": 1103,
+          "low_confidence": 5
+        },
+        "flicker_persistent": 10.375056759516399,
+        "flicker_churn": null
+      },
+      "occlusion": {
+        "faces": 684,
+        "swap": 0.7982456140350878,
+        "mosaic": 0.19883040935672514,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.0029239766081871343,
+        "leak_rate": 0.0,
+        "collisions": 0,
+        "transitions_per_100": 2.7777777777777777,
+        "identity_changes_per_face": 0.8333333333333334,
+        "demotions": {
+          "ghost_track": 413,
+          "track_not_stable": 311,
+          "minor_gate_not_passed": 311,
+          "sticky_demotion": 477,
+          "low_confidence": 9
+        },
+        "flicker_persistent": 5.7211262583732605,
+        "flicker_churn": null
+      },
+      "crowd": {
+        "faces": 2880,
+        "swap": 0.746875,
+        "mosaic": 0.246875,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.00625,
+        "leak_rate": 0.0,
+        "collisions": 0,
+        "transitions_per_100": 5.104166666666667,
+        "identity_changes_per_face": 1.0833333333333333,
+        "demotions": {
+          "track_not_stable": 141,
+          "minor_gate_not_passed": 212,
+          "ghost_track": 392,
+          "sticky_demotion": 888,
+          "low_confidence": 10,
+          "no_identity": 35
+        },
+        "flicker_persistent": 8.436462350920136,
+        "flicker_churn": null
+      },
+      "late_appearance": {
+        "faces": 720,
+        "swap": 0.7277777777777777,
+        "mosaic": 0.24861111111111112,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.02361111111111111,
+        "leak_rate": 0.0,
+        "collisions": 0,
+        "transitions_per_100": 1.8055555555555556,
+        "identity_changes_per_face": 0.16666666666666666,
+        "demotions": {
+          "ghost_track": 354,
+          "track_not_stable": 352,
+          "minor_gate_not_passed": 436,
+          "sticky_demotion": 446,
+          "low_confidence": 8
+        },
+        "flicker_persistent": 4.3842915296554565,
+        "flicker_churn": null
+      },
+      "late_long": {
+        "faces": 720,
+        "swap": 0.5430555555555555,
+        "mosaic": 0.35,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.10694444444444444,
+        "leak_rate": 0.11805555555555555,
+        "collisions": 0,
+        "transitions_per_100": 1.5277777777777777,
+        "identity_changes_per_face": 0.16666666666666666,
+        "demotions": {
+          "ghost_track": 451,
+          "track_not_stable": 438,
+          "minor_gate_not_passed": 558,
+          "sticky_demotion": 559,
+          "low_confidence": 13
+        },
+        "flicker_persistent": 4.456114570299785,
+        "flicker_churn": null
+      },
+      "edge_entry": {
+        "faces": 336,
+        "swap": 0.5327380952380952,
+        "mosaic": 0.46726190476190477,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.0,
+        "leak_rate": 0.0,
+        "collisions": 0,
+        "transitions_per_100": 4.761904761904762,
+        "identity_changes_per_face": 0.16666666666666666,
+        "demotions": {
+          "ghost_track": 384,
+          "track_not_stable": 197,
+          "minor_gate_not_passed": 306,
+          "sticky_demotion": 485,
+          "low_confidence": 5
+        },
+        "flicker_persistent": 4.34112274646759,
+        "flicker_churn": null
+      },
+      "erratic_motion": {
+        "faces": 720,
+        "swap": 0.6388888888888888,
+        "mosaic": 0.3111111111111111,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.05,
+        "leak_rate": 0.0,
+        "collisions": 0,
+        "transitions_per_100": 5.277777777777778,
+        "identity_changes_per_face": 1.0,
+        "demotions": {
+          "track_not_stable": 195,
+          "minor_gate_not_passed": 212,
+          "ghost_track": 292,
+          "sticky_demotion": 458,
+          "low_confidence": 15
+        },
+        "flicker_persistent": 6.34062873257531,
+        "flicker_churn": null
+      },
+      "exit_reenter": {
+        "faces": 564,
+        "swap": 0.8333333333333334,
+        "mosaic": 0.16666666666666666,
+        "blur": 0.0,
+        "block": 0.0,
+        "uncovered": 0.0,
+        "leak_rate": 0.0,
+        "collisions": 0,
+        "transitions_per_100": 2.127659574468085,
+        "identity_changes_per_face": 1.6666666666666667,
+        "demotions": {
+          "ghost_track": 526,
+          "track_not_stable": 285,
+          "minor_gate_not_passed": 377,
+          "sticky_demotion": 604,
+          "low_confidence": 8
+        },
+        "flicker_persistent": 5.426222483317058,
+        "flicker_churn": null
+      }
+    },
+    "note": "STUB replacer + SIMULATED detector. Measures the gates and bookkeeping, not real swap quality."
+  }
+}

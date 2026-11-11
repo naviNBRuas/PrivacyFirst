@@ -1,0 +1,2 @@
+# Test run, run 005a. pytest unavailable offline; compatible mini-runner used. Confirm with: python -m pytest -q
+97 passed, 0 failed

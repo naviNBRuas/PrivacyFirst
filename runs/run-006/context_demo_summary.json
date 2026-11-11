@@ -1,0 +1,97 @@
+{
+  "frames": 60,
+  "scan_every": 3,
+  "ocr": {
+    "scanner": "context-scan-v0",
+    "ocr_engine": "tesseract",
+    "ocr_languages": "eng",
+    "ocr_passes": [
+      [
+        6,
+        1.0
+      ],
+      [
+        3,
+        1.0
+      ]
+    ],
+    "plate_shape_search": true
+  },
+  "A_live": {
+    "plate": {
+      "covered_frames": 60,
+      "frames_with_item": 60
+    },
+    "phone": {
+      "covered_frames": 42,
+      "frames_with_item": 42
+    },
+    "sign": {
+      "covered_frames": 0,
+      "frames_with_item": 60
+    },
+    "context": {
+      "frames_scanned": 20,
+      "tracks_by_kind": {
+        "plate_like": 1,
+        "plate_shape_unread": 1,
+        "text": 1,
+        "contact_like": 1
+      },
+      "tracks_redacted": 2,
+      "tracks_flagged_only": 2,
+      "backfilled_regions": 4
+    }
+  },
+  "B_two_pass": {
+    "plate": {
+      "covered_frames": 60,
+      "frames_with_item": 60
+    },
+    "phone": {
+      "covered_frames": 42,
+      "frames_with_item": 42
+    },
+    "sign": {
+      "covered_frames": 0,
+      "frames_with_item": 60
+    },
+    "context": {
+      "frames_scanned": 20,
+      "tracks_by_kind": {
+        "plate_like": 1,
+        "plate_shape_unread": 1,
+        "text": 1,
+        "contact_like": 1
+      },
+      "tracks_redacted": 2,
+      "tracks_flagged_only": 2,
+      "backfilled_regions": 0
+    }
+  },
+  "review_before": {
+    "markers": 4,
+    "exposed_needing_decision": 2,
+    "export_allowed": false,
+    "unviewed": 4
+  },
+  "C_after_review": {
+    "plate": {
+      "covered_frames": 60,
+      "frames_with_item": 60
+    },
+    "phone": {
+      "covered_frames": 42,
+      "frames_with_item": 42
+    },
+    "sign": {
+      "covered_frames": 60,
+      "frames_with_item": 60
+    }
+  },
+  "review_after": {
+    "markers": 4,
+    "exposed_needing_decision": 0,
+    "carried_floors": 2
+  }
+}

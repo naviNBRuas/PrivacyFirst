@@ -1,0 +1,149 @@
+{
+  "report_version": 1,
+  "tool_version": "0.4.0",
+  "generated_utc": "2026-10-22T18:47:26+00:00",
+  "source": "two-pass demo (drawn faces, STUB replacer)",
+  "detector": "scripted [two-pass replay]",
+  "policy": {
+    "conf_threshold": 0.5,
+    "default_treatment": "blur",
+    "low_conf_treatment": "mosaic",
+    "ghost_treatment": "mosaic",
+    "minor_treatment": "mosaic",
+    "minor_prob_threshold": 0.2,
+    "unknown_age_is_minor": true,
+    "dark_luma": 12.0,
+    "scene_dark_treatment": "mosaic",
+    "scene_error_treatment": "block",
+    "region_margin": 0.4,
+    "swap_enabled": true,
+    "swap_min_conf": 0.7,
+    "swap_min_track_hits": 5,
+    "swap_min_health": 0.6,
+    "swap_demote_treatment": "mosaic",
+    "swap_sticky_frames": 30,
+    "swap_sticky_dropout_frames": 15,
+    "minor_swap_allowed": true,
+    "swap_dropout_release_streak": 3,
+    "swap_interp_max_gap": 4
+  },
+  "lookahead_frames": 4,
+  "mode": "two_pass",
+  "two_pass": {
+    "tracklets": 3,
+    "persons": 2,
+    "stitched_links": 1,
+    "back_extended_frames": 14,
+    "interpolated_gap_frames": 35,
+    "trailing_ghost_frames": 0,
+    "detections": 119,
+    "mode": "two_pass",
+    "n_frames": 84
+  },
+  "frames": {
+    "in": 84,
+    "out": 84
+  },
+  "tracks": [
+    {
+      "track_id": 1,
+      "first_frame": 0,
+      "last_frame": 83,
+      "frames_redacted": 84,
+      "ghost_frames": 35,
+      "treatments": {
+        "swap": 47,
+        "mosaic": 37
+      },
+      "treated_as_minor_risk": true,
+      "synthetic_identity_id": "stub-t1-a2",
+      "swap_demotions": {}
+    },
+    {
+      "track_id": 2,
+      "first_frame": 0,
+      "last_frame": 83,
+      "frames_redacted": 84,
+      "ghost_frames": 14,
+      "treatments": {
+        "mosaic": 16,
+        "swap": 68
+      },
+      "treated_as_minor_risk": true,
+      "synthetic_identity_id": "stub-t1-a4",
+      "swap_demotions": {}
+    }
+  ],
+  "fallback_reasons": {
+    "face_detected": 168,
+    "swap_gate_passed": 115,
+    "minor_or_unknown_age": 53,
+    "ghost_track": 49,
+    "swap_gate:ghost_track": 49,
+    "swap_gate:track_not_stable": 14,
+    "swap_gate:minor_gate_not_passed": 16,
+    "swap_gate:sticky_demotion": 51
+  },
+  "scene_level_events": {},
+  "backfilled_regions": 0,
+  "minor_exception_used": false,
+  "verification": {
+    "status": "not_run",
+    "verifier": null,
+    "frames_scanned": 0,
+    "frames_with_residual_faces": 0,
+    "escalations": 0,
+    "unresolved_frames_blocked": 0
+  },
+  "metadata": {
+    "verified_clean": true,
+    "keys_removed": [
+      "encoder"
+    ],
+    "keys_remaining": [
+      "compatible_brands",
+      "handler_name",
+      "language",
+      "major_brand",
+      "minor_version",
+      "vendor_id"
+    ],
+    "gps_present_before": false,
+    "gps_present_after": false,
+    "audio_dropped": true
+  },
+  "swap": {
+    "replacer": "stub-replacer (NOT AI)",
+    "replacer_is_stub": true,
+    "region_frames_swapped": 115,
+    "swaps_demoted_at_render": 0,
+    "demotions_by_reason": {
+      "ghost_track": 49,
+      "track_not_stable": 14,
+      "minor_gate_not_passed": 16,
+      "sticky_demotion": 51
+    },
+    "identity_assignments": 2,
+    "unvetted_identities_in_use": true,
+    "replacer_errors": 0,
+    "recognizer_verification": {
+      "recognizers": [
+        "recognizer-A (sim)",
+        "recognizer-B (sim)"
+      ],
+      "thresholds": {
+        "adult": 0.35,
+        "minor": 0.2
+      },
+      "checks": 25,
+      "failures": 0
+    }
+  },
+  "context_identifier_scan": "not implemented in Phase 1",
+  "warnings": [
+    "Stub replacer in use: the output is a cartoon stand-in, NOT an AI face change.",
+    "Unvetted identity library in use: identities have not passed offline vetting."
+  ],
+  "notice": "Faces are redacted by blur/mosaic/block unless the face-change path is enabled with a real replacer. The only replacer in this build is a non-AI stub. Voice is not anonymized (audio is dropped by default).",
+  "residual_risk_statement": "Face replacement and redaction reduce privacy risk but do not by themselves guarantee anonymization under any law or regulation. People can still be identified from other cues: voice, body, clothing, tattoos, location, background, text, and surrounding context. Verification passing means the tested recognizers did not match; it is not proof that no recognizer, present or future, could."
+}

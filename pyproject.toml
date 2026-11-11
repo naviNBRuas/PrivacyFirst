@@ -1,0 +1,21 @@
+[project]
+name = "privacyfirst"
+version = "0.6.0"
+description = "Local-first, fail-closed face redaction for video (Phase 1 core)"
+requires-python = ">=3.10"
+dependencies = ["numpy", "opencv-python-headless", "Pillow"]
+
+[project.optional-dependencies]
+dev = ["pytest", "matplotlib"]
+mediapipe = ["mediapipe"]
+bench = ["matplotlib"]
+
+[project.scripts]
+privacyfirst = "privacyfirst.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

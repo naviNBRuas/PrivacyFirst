@@ -1,0 +1,70 @@
+{
+  "face_A_visible_all_frames_detected_from": 14,
+  "face_A_leaked_frames_live": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "face_A_leaked_frames_two_pass": [],
+  "face_B_leaked_frames_live": [
+    61
+  ],
+  "face_B_leaked_frames_two_pass": [],
+  "identities_by_track_live": {
+    "1": {
+      "frames": [
+        0,
+        60
+      ],
+      "identity": "stub-t1-a2"
+    },
+    "2": {
+      "frames": [
+        10,
+        83
+      ],
+      "identity": "stub-t0-a4"
+    },
+    "3": {
+      "frames": [
+        62,
+        83
+      ],
+      "identity": "stub-t1-a2"
+    }
+  },
+  "identities_by_person_two_pass": {
+    "1": {
+      "frames": [
+        0,
+        83
+      ],
+      "identity": "stub-t1-a2"
+    },
+    "2": {
+      "frames": [
+        0,
+        83
+      ],
+      "identity": "stub-t1-a4"
+    }
+  },
+  "live_tracks": 3,
+  "two_pass_people": 2,
+  "two_pass_plan": {
+    "tracklets": 3,
+    "persons": 2,
+    "stitched_links": 1,
+    "back_extended_frames": 14,
+    "interpolated_gap_frames": 35,
+    "trailing_ghost_frames": 0,
+    "detections": 119
+  }
+}

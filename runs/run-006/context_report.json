@@ -1,0 +1,142 @@
+{
+  "report_version": 1,
+  "tool_version": "0.6.0",
+  "generated_utc": "2026-10-23T06:03:35+00:00",
+  "source": "demo_context.mp4",
+  "detector": "scripted [two-pass replay]",
+  "policy": {
+    "conf_threshold": 0.5,
+    "default_treatment": "blur",
+    "low_conf_treatment": "mosaic",
+    "ghost_treatment": "mosaic",
+    "minor_treatment": "mosaic",
+    "minor_prob_threshold": 0.2,
+    "unknown_age_is_minor": true,
+    "dark_luma": 12.0,
+    "scene_dark_treatment": "mosaic",
+    "scene_error_treatment": "block",
+    "region_margin": 0.4,
+    "swap_enabled": false,
+    "swap_min_conf": 0.7,
+    "swap_min_track_hits": 5,
+    "swap_min_health": 0.6,
+    "swap_demote_treatment": "mosaic",
+    "swap_sticky_frames": 30,
+    "swap_sticky_dropout_frames": 15,
+    "minor_swap_allowed": true,
+    "swap_dropout_release_streak": 3,
+    "swap_interp_max_gap": 4
+  },
+  "lookahead_frames": 4,
+  "mode": "two_pass",
+  "two_pass": {
+    "tracklets": 0,
+    "persons": 0,
+    "stitched_links": 0,
+    "back_extended_frames": 0,
+    "interpolated_gap_frames": 0,
+    "trailing_ghost_frames": 0,
+    "detections": 0,
+    "mode": "two_pass",
+    "n_frames": 60
+  },
+  "frames": {
+    "in": 60,
+    "out": 60
+  },
+  "tracks": [],
+  "fallback_reasons": {},
+  "scene_level_events": {},
+  "backfilled_regions": 0,
+  "minor_exception_used": false,
+  "verification": {
+    "status": "not_run",
+    "verifier": null,
+    "frames_scanned": 0,
+    "frames_with_residual_faces": 0,
+    "escalations": 0,
+    "unresolved_frames_blocked": 0
+  },
+  "metadata": {
+    "verified_clean": true,
+    "keys_removed": [
+      "encoder"
+    ],
+    "keys_remaining": [
+      "compatible_brands",
+      "handler_name",
+      "language",
+      "major_brand",
+      "minor_version",
+      "vendor_id"
+    ],
+    "gps_present_before": false,
+    "gps_present_after": false,
+    "audio_dropped": true
+  },
+  "swap": null,
+  "context_identifier_scan": "run_v0_heuristic",
+  "context": {
+    "scanner": "context-scan-v0",
+    "ocr_engine": "tesseract",
+    "ocr_languages": "eng",
+    "ocr_passes": [
+      [
+        6,
+        1.0
+      ],
+      [
+        3,
+        1.0
+      ]
+    ],
+    "plate_shape_search": true,
+    "mode": "two_pass",
+    "config": {
+      "scan_every": 3,
+      "plate_treatment": "block",
+      "contact_treatment": "block",
+      "address_treatment": "block",
+      "text_treatment": null,
+      "plate_shape_treatment": null,
+      "min_conf_identifier": 30.0,
+      "min_conf_text": 55.0,
+      "min_text_alpha": 3,
+      "plate_max_line_words": 3,
+      "region_margin": 0.25,
+      "use_plate_shape": true,
+      "max_shape_crops": 4,
+      "max_unseen_scans": 2,
+      "extend_frames": -1,
+      "hold_growth": 0.03,
+      "extend_frames_effective": 5
+    },
+    "frames_scanned": 20,
+    "scan_failures_frames_blocked": 0,
+    "tracks_by_kind": {
+      "plate_like": 1,
+      "plate_shape_unread": 1,
+      "text": 1,
+      "contact_like": 1
+    },
+    "tracks_redacted": 4,
+    "tracks_flagged_only": 0,
+    "redacted_region_frames": 173,
+    "flagged_region_frames": 0,
+    "backfilled_regions": 0,
+    "review_escalations_applied": 66,
+    "plan": {
+      "tracks": 4,
+      "interpolated_frames": 102,
+      "extension_frames": 16,
+      "scan_errors": 0
+    },
+    "recognised_text_stored": false
+  },
+  "warnings": [
+    "Context scan is heuristic OCR (v0): text that is small, blurred, rotated, stylised, upside down or not in the installed OCR languages is NOT found, and name tags, uniforms, logos and tattoos are never scanned.",
+    "Context scan ran on every 3th frame: an item visible for fewer frames between scans can be missed."
+  ],
+  "notice": "Faces are redacted by blur/mosaic/block unless the face-change path is enabled with a real replacer. The only replacer in this build is a non-AI stub. Voice is not anonymized (audio is dropped by default).",
+  "residual_risk_statement": "Face replacement and redaction reduce privacy risk but do not by themselves guarantee anonymization under any law or regulation. People can still be identified from other cues: voice, body, clothing, tattoos, location, background, text, and surrounding context. Verification passing means the tested recognizers did not match; it is not proof that no recognizer, present or future, could."
+}

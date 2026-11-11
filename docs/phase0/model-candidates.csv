@@ -1,0 +1,11 @@
+stage,candidate,license_claimed_at_writing,status,notes
+detector,MediaPipe BlazeFace,Apache-2.0 (code; verify model),to_verify,Primary shipping candidate; adapter written
+detector,YuNet,MIT (verify model),to_verify,Primary shipping candidate; adapter written; weights via Git LFS
+detector,SCRFD / InsightFace packs,non-commercial (verify),likely_not_cleared,High accuracy; license risk
+detector,YOLO-face variants,AGPL (verify),likely_not_cleared,Copyleft implications
+tracker,ByteTrack / OC-SORT,permissive (verify),to_verify,Replace simple IoU tracker
+swap,SimSwap-class / FaceDancer / GHOST,verify per repo and weights,to_verify,Check training data provenance
+swap,inswapper_128,non-commercial (verify),likely_not_cleared,Do not ship commercially
+parser,BiSeNet-style face parsing,verify,to_verify,Head mask
+verifier,ArcFace / AdaFace / MagFace / EdgeFace-class,verify per weights,to_verify,Need >=2 independent families
+generator,StyleGAN-family weights,NVIDIA non-commercial (verify),likely_not_cleared,Offline identity library generation needs a cleared generator

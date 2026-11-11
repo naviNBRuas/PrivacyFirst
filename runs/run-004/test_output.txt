@@ -1,0 +1,7 @@
+# Test run, run 004. pytest could not be installed (no network); run with a small compatible runner.
+# Confirm locally with: python -m pytest -q
+Faces are redacted by blur/mosaic/block unless the face-change path is enabled with a real replacer. The only replacer in this build is a non-AI stub. Voice is not anonymized (audio is dropped by default).
+Face replacement and redaction reduce privacy risk but do not by themselves guarantee anonymization under any law or regulation. People can still be identified from other cues: voice, body, clothing, tattoos, location, background, text, and surrounding context. Verification passing means the tested recognizers did not match; it is not proof that no recognizer, present or future, could.
+.cannot open /tmp/tmpowx8_ba0/missing.mp4
+..................................................................................
+92 passed, 0 failed

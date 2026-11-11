@@ -1,0 +1,147 @@
+{
+  "review_version": 1,
+  "verification_status": "not_run",
+  "metadata_verified_clean": null,
+  "placeholder_components": false,
+  "markers": [
+    {
+      "id": "m0001",
+      "kind": "context_flagged",
+      "start": 0,
+      "end": 5,
+      "ref_type": "context",
+      "ref_id": 1,
+      "treatment": null,
+      "exposed": true,
+      "viewed": true,
+      "decision": "escalated",
+      "frames": 6
+    },
+    {
+      "id": "m0002",
+      "kind": "context_flagged",
+      "start": 0,
+      "end": 59,
+      "ref_type": "context",
+      "ref_id": 2,
+      "treatment": null,
+      "exposed": true,
+      "viewed": true,
+      "decision": "escalated",
+      "frames": 60
+    },
+    {
+      "id": "m0003",
+      "kind": "context_identifier",
+      "start": 0,
+      "end": 59,
+      "ref_type": "context",
+      "ref_id": 0,
+      "treatment": "block",
+      "exposed": false,
+      "viewed": false,
+      "decision": null,
+      "frames": 60
+    },
+    {
+      "id": "m0004",
+      "kind": "context_identifier",
+      "start": 13,
+      "end": 59,
+      "ref_type": "context",
+      "ref_id": 3,
+      "treatment": "block",
+      "exposed": false,
+      "viewed": false,
+      "decision": null,
+      "frames": 47
+    }
+  ],
+  "people": [],
+  "context_regions": [
+    {
+      "cid": 0,
+      "kind": "plate_like",
+      "first_frame": 0,
+      "last_frame": 59,
+      "frames": 60,
+      "treatment": "block",
+      "floor": null
+    },
+    {
+      "cid": 1,
+      "kind": "plate_shape_unread",
+      "first_frame": 0,
+      "last_frame": 5,
+      "frames": 6,
+      "treatment": null,
+      "floor": "block"
+    },
+    {
+      "cid": 2,
+      "kind": "text",
+      "first_frame": 0,
+      "last_frame": 59,
+      "frames": 60,
+      "treatment": null,
+      "floor": "block"
+    },
+    {
+      "cid": 3,
+      "kind": "contact_like",
+      "first_frame": 13,
+      "last_frame": 59,
+      "frames": 47,
+      "treatment": "block",
+      "floor": null
+    }
+  ],
+  "not_covered": [
+    "Voice (audio is dropped by default)",
+    "Body, clothing, tattoos, uniforms, logos, name tags",
+    "Background and location cues",
+    "Text or plates the OCR cannot read (small, blurred, rotated, other languages)"
+  ],
+  "required_acknowledgements": [
+    "verification_not_run"
+  ],
+  "acknowledged": [],
+  "actions": [
+    {
+      "seq": 1,
+      "action": "escalate_context",
+      "context": 1,
+      "to": "block"
+    },
+    {
+      "seq": 2,
+      "action": "decided",
+      "marker": "m0001",
+      "decision": "escalated"
+    },
+    {
+      "seq": 3,
+      "action": "escalate_context",
+      "context": 2,
+      "to": "block"
+    },
+    {
+      "seq": 4,
+      "action": "decided",
+      "marker": "m0002",
+      "decision": "escalated"
+    }
+  ],
+  "export": {
+    "allowed": false,
+    "hard_blocks": [],
+    "unviewed_markers": [
+      "m0003",
+      "m0004"
+    ],
+    "undecided_markers": [],
+    "acks_missing": [
+      "verification_not_run"
+    ]
+  }
+}

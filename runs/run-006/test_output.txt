@@ -1,0 +1,2 @@
+# Test run, run 006. pytest unavailable offline; scripts/minipytest.py used. Confirm with: python -m pytest -q
+145 passed, 0 failed, 0 skipped in 12.3s  (minipytest: run `python -m pytest -q` to confirm)
